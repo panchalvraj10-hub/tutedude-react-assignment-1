@@ -1,3 +1,11 @@
+# React Assignment 1
+
+## Live Demo
+https://tutedude-react-assignment-1.netlify.app/
+
+## GitHub Repository
+https://github.com/panchalvraj10-hub/tutedude-react-assignment-1
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
