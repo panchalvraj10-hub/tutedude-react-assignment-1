@@ -6,9 +6,9 @@ return(
     <div className="box">
       <h2>Function Component</h2>
       <div className="count">
-      <button onClick={() => count > 0 && setCount(count - 1)}>-</button>
+      <button className="left" onClick={() => count > 0 && setCount(count - 1)}>-</button>
       <h3>{count}</h3>
-      <button onClick={() => setCount(count + 1)}>+</button>
+      <button className="right" onClick={() => setCount(count + 1)}>+</button>
       </div>
       <button className="reset" onClick={() => setCount(0)}>Reset</button>
     </div>

@@ -28,9 +28,9 @@ class Classcomponent extends Component {
             <div className="box">
                 <h2>Class Component</h2>
                 <div className="count">
-                    <button onClick={this.decrease}>-</button>
+                    <button className="left" onClick={this.decrease}>-</button>
                     <h3>{this.state.count}</h3>
-                    <button onClick={this.increase}>+</button>
+                    <button className="right" onClick={this.increase}>+</button>
                 </div>
                 <button className="reset" onClick={this.reset}>Reset</button>
             </div>
